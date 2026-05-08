@@ -1,9 +1,9 @@
 import posts from '../config/posts/posts';
-import Post from '../components/Post';
+import PostInfo from '../components/PostInfo';
 
 function BlogPage() {
     const blogPosts = posts.map((post) => (
-        <Post postId={post.id} className="mb-4"/>
+        <PostInfo className="mb-4" post={post} />
     ));
     return (
         <div>{blogPosts}</div>
