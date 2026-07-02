@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <div className='flex flex-col items-center justify-center px-4'>
-        <header className='w-full bg-gray-100 py-6 text-neutral-800' >
+        <header className='w-full bg-gray-100 p-6 text-neutral-800' >
           <nav className='flex flex-row justify-between my-6 items-center max-w-5xl mx-auto'>
             <h1 className='text-3xl font-bold'>VITALII BONDUR</h1>
             <ul className='flex flex-row gap-4 items-center text-xl font-medium'>
@@ -18,7 +18,7 @@ function App() {
             </ul>
           </nav>
         </header>
-        <div className='w-full max-w-5xl mx-auto py-6'>
+        <div className='w-full max-w-3xl mx-auto py-6'>
           <Root />
         </div>
       </div>
