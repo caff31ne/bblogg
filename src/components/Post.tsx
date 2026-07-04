@@ -3,6 +3,7 @@ import api from '../api';
 import posts, { type PostMetadata } from '../config/posts/posts';
 import Markdown from 'react-markdown';
 import { formatDate } from '../common/format';
+import './Post.css';
 
 function Post({postId, className}: {postId: string; className?: string}) {
     const [content, setContent] = useState('');
@@ -26,7 +27,7 @@ function Post({postId, className}: {postId: string; className?: string}) {
 
     return (
         <div className={"post " + className}>
-            <h1 className="mb-0">{metadata.title}</h1>
+            <h1 className="mb-0 text-brown-700">{metadata.title}</h1>
             <p className="pb-4 italic">{formatDate(metadata.date)}</p>
             <Markdown>{content}</Markdown>
         </div>

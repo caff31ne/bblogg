@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.post p {
+    @apply mb-2;
+}

@@ -2,7 +2,7 @@ import './AboutPage.css';
 
 function AboutPage() {
     return (
-        <div>
+        <div className="about">
             <h1>Who I Am</h1>
             <p>I am a software engineer generalist with wide skillset.</p>
             <h1>What skills I have</h1>

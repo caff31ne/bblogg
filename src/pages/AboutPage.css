@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
-h1 {
+.about h1 {
     @apply text-xl font-bold my-4 text-neutral-800;
 }
 
-p {
+.about p {
     @apply text-base my-2 text-neutral-700;
 }
